@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move? (board = [], index = 0, mark = "X")
-  if position_taken?(board, index) == false && 0 <= index && index <= 9
+  if position_taken?(board, index) == false && 0 <= index && index <= 8
     board[index] = mark
   else
   end
